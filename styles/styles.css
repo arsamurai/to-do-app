@@ -1,0 +1,57 @@
+.px1 {
+  padding: 0 1rem;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field label {
+  position: absolute;
+  top: 22px;
+  font-size: 22px;
+  left: -1px;
+  transition: all .18s ease-in;
+}
+
+.input-field:hover label {
+  top: 2px;
+  font-size: 14px;
+}
+
+.input-field .pre-active {
+  position: absolute;
+  top: 2px;
+  font-size: 14px;
+}
+
+.todo i {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.no-cases {
+  text-align: center;
+}
